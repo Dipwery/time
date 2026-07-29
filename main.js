@@ -6,8 +6,8 @@ const minutesElement = document.getElementById('minutes');
 const secondsElement = document.getElementById('seconds');
 const finishedMsg = document.getElementById('finished-msg');
 
-// Set the target date and time (July 20, 2026 - 10:00 AM)
-const targetDate = new Date('2026-07-20T10:00:00').getTime();
+// Set the target date and time (August 10, 2026 - 10:00 AM)
+const targetDate = new Date('2026-08-10T10:00:00').getTime();
 // Update the countdown every second
 const countdownInterval = setInterval(() => {
     const now = new Date().getTime();
